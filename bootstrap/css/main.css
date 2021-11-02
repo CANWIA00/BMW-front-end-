@@ -1,0 +1,769 @@
+html { overflow-x: hidden; }
+html,
+body,
+#cover{
+    height: 900px;
+    width: 100%;
+}
+
+#cover{
+    background-image: url("../../imges/starter.png");
+    background-size:cover ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+
+.navbar{
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 140px;
+}
+
+.navbar ul li{
+    margin-top: 50px;
+}
+
+.navbar ul li a{
+    display: block;
+    margin-left: 20px;
+}
+
+#nav-rg{
+    
+    margin-top: 40px;
+}
+
+#nav-rg img{
+    width: 80px;
+    margin-top: -10px;
+}
+
+.navbar ul li:hover{
+    border-bottom: 7px solid rgb(28, 105, 212);
+}
+
+/******************Cover-content***************/
+
+#cover-content{
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+    margin-left: -250px;
+}
+
+#cover-content h1{
+    font-size: 64px;
+    font-weight: 450;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+}
+
+#cover-content img{
+    float: left;
+    width: 80px;
+}
+
+#cover-content h5{
+    font-size: 38px;
+    margin-top: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#cover-content .btn{
+    width: 400px;
+    height: 70px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*******************Nav-footer**********************/
+#nav-footer{
+    margin-top: 5px;
+}
+#nav-footer ul{
+    height: 80px;
+}
+
+#nav-footer ul img{
+    margin-left: 60px;
+}
+
+#nav-footer ul a{
+    width: 200px;
+    display: block;
+}
+
+#nav-footer ul a p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+#nav-footer ul li:hover{
+    border-top: 7px solid rgb(28, 105, 212);
+    background-color: rgb(243, 243, 243);
+}
+
+
+/******************kesfet***********************/
+
+#kesfet{
+    width: 100%;
+}
+
+#kesfet #left{
+    position:relative;
+    width: 50%;
+    height: 450px;
+    margin-right: 10px;
+    background-image: url("../../imges/kesfet/left.jpg");
+    background-size: 100%;
+}
+
+#kesfet #left h1{
+    margin-left: 55px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.kft-btn{
+    width: 380px;
+    height: 70px;
+    background: none;
+    color: #fff;
+    border: 4px solid #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    float: left;
+}
+
+#kesfet #left .kft-btn{
+    margin-left: 50px;
+} 
+
+
+.kft-btn:hover{
+    color:rgb(28, 105, 212);
+    border: 4px solid rgb(28, 105, 212) ;
+}
+
+#kesfet #right{
+    width: 49.5%;
+    height: 450px;
+    background-image: url("../../imges/kesfet/right.jpg");
+    background-size: 100%;
+}
+
+#kesfet #right img{
+    float: left;
+    margin-left: 55px;
+    margin-top: 40px
+}
+
+#kesfet #right h1{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#kesfet #right .kft-btn{
+    margin-left: 50px;
+}
+
+#bottom{
+    width: 100%;
+    height: 1000px;
+    margin-top: 25px;
+    background: url("../../imges/kesfet/bottom.jpg")no-repeat;
+    background-size: 100%;
+}
+
+#bottom h1{
+    width: 700px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    color: #000;
+}
+
+#bottom .btn{
+    width: 400px;
+    height: 70px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+/*******************model********************/
+
+
+
+#model{
+    width: 100%;
+    height: 1050px;
+}
+
+.model-catalog{
+    width: 1600px;
+    height: 100px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:900;
+    font-size: 20px;
+    border-bottom: 2px solid #000;
+}
+
+
+/*********************************************************************************************************************************************************************/
+
+
+
+
+/**************BMW-MODEL-KATALOGU***************/
+#nav-bmwmodelleri{
+    position: absolute;
+    width: 1600px;
+    margin-left:9.5% ;
+}
+
+#bmw-model{
+    position: relative;
+    width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+
+}
+
+#bmw-model img{
+    width: 900px;
+    height: 450px;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#bmw-model button{
+    width: 350px;
+    height: 55px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:900;
+    font-size: 20px;
+    margin-left: 600px;
+}
+
+
+
+/******seriler1*********/
+#nav-1{
+    position: absolute;
+    width: 1600px;
+    margin-left: 9.5%;
+}
+
+#seriler-1{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+#seriler-1 img{
+    width: 350px;
+    float: left;
+}
+
+#seriler-1 a{
+    float: left;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:300;
+    font-size: 20px;
+    color: #000;
+}
+
+#seriler-1 a:hover{
+    color:rgb(28, 105, 212);
+}
+
+/***********nav-2********************/
+
+
+
+#nav-2{
+    position: absolute;
+    width: 1600px;
+    margin-left: 9.5%;
+}
+
+#seriler-2{
+    position: relative;
+    float: left;
+    width: 350px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+#seriler-2 img{
+    width: 350px;
+    float: left;
+}
+
+#seriler-2 a{
+    float: left;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:300;
+    font-size: 20px;
+    color: #000;
+}
+
+#seriler-2 a:hover{
+    color:rgb(28, 105, 212);
+}
+
+/*************nav-3*******************************/
+
+#nav-3,#nav-4,#nav-5,#nav-6,#nav-7,#nav-8,#nav-Hatch,#nav-Sedan,#nav-Coupe,#nav-Cabrio,#nav-Tourer,#nav-GCoupe,#nav-GTurismo{
+    position: absolute;
+    width: 1600px;
+    margin-left: 9.5%;
+}
+
+
+
+/**************info********************************/
+
+#info{
+    width: 1600px;
+    height: 950px;
+    margin:0 auto;
+}
+
+#info h1{
+    font-weight:300;
+    font-size: 60px;
+    color: #000;
+}
+
+#info .infbmw{
+    width: 500px;
+    height: 800px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#info .infbmw a{
+    text-decoration: none;
+}
+
+#info .infbmw a h5:hover{
+    color:rgb(28, 105, 212);
+}
+
+.infbmw a h5{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:600;
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.infbmw .inf-content{
+    width: 400px;
+    height: 240px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.infbmw .inf-content i{
+    float: left;
+    margin: 20px;
+}
+
+.infbmw .inf-content h5{
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+.infbmw .inf-content h5:hover{
+    color: rgb(82, 82, 82);
+}
+
+ .btn{
+    width: 400px;
+    height: 65px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:200;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 50px;
+}
+
+
+/****************forward**********************/
+
+
+#forward{
+    width: 1600px;
+    height: 700px;
+    margin:0 auto;
+}
+
+#forward .navstyl{
+    height: 90px;
+    margin-top: 50px;
+}
+
+#forward .navstyl li{
+    height: 80px;
+}
+
+#forward .navstyl li button{
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:600;
+    font-size: 22px;
+    color: #000;
+}
+
+#forward .navstyl li button:focus{
+    border-bottom: 7px solid rgb(28, 105, 212);
+    transition: 0.5s;
+}
+
+#forward h1{
+    font-weight:300;
+    font-size: 60px;
+    color: #000;
+}
+
+
+
+#forward .un-context p{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:100;
+    font-size: 22px;
+    color: #000;
+}
+
+#forward .un-context button{
+    float: left;
+    margin-left: -5px;
+}
+
+
+
+/*****************forward-footer***************/
+
+
+#forward-footer{
+    max-width: 2010px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#forward-footer #left-foot{
+    width: 800px;
+    height: 300px;
+    background-color:rgb(240, 240, 240);
+    float: left;
+
+}
+
+#left-foot h1{
+    margin-left: 210px;
+    margin-top: 60px;
+    font-weight:300;
+    font-size: 60px;
+    color: #000;
+}
+
+#right-foot{
+    width: 393px;
+    height: 300px;
+    margin-left: 10px;
+    float: left;
+    background-color:rgb(240, 240, 240);
+}
+
+#right-foot img{
+    width: 80px;
+    margin-left: 39%;
+    margin-top: 20px;
+}
+
+#right-foot button{
+    width: 300px;
+    color: black;
+}
+
+#right-foot button:hover{
+    color: #fff;
+}
+
+
+/**********************card-context***************/
+
+#card-context{
+    max-width: 1600px;
+    height: 3400px;
+    margin: 120px auto;
+}
+
+#card-context .context{
+    float: left;
+    width: 750px;
+    height: 700px;
+    margin-left: 34px;
+    margin-top: 100px;
+    border: 1px solid lightgrey;
+}
+
+#card-context .context img{
+    width: 700px;
+    margin: 20px 20px;
+}
+
+#card-context .context h1{
+    font-weight:350;
+    font-size: 45px;
+    color: #000;
+    margin-left: 20px;
+}
+
+#card-context .context p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight:350;
+    font-size: 20px;
+    color: black;
+}
+
+#card-context .context a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight:450;
+    font-size: 20px;
+    color: #000;
+}
+
+#card-context .context a:hover{
+    color:rgb(28, 105, 212);
+    transition: 0.1s;
+}
+
+
+#g-card .styl{
+    width: 350px;
+    height: 550px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border: 1px solid lightgrey;
+}
+
+#g-card .styl h1{
+    font-weight:350;
+    font-size: 45px;
+    color: #000;
+}
+
+
+#g-card .styl p{
+    font-weight:normal;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    height: 80px;
+    color: dimgray;
+}
+
+#g-card .styl a{
+    text-decoration: none;
+    font-weight:450;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+#g-card .styl a:hover{
+    color:rgb(28, 105, 212);
+    transition: 0.1s;
+}
+
+
+.front-footer{
+    width: 100%;
+    height: 200px;
+}
+
+
+.front-footer ul{
+    list-style: none;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.front-footer ul li{
+    background-color: rgba(211, 211, 211, 0.212);
+    float: left;
+    margin-right: 30px;
+    border: 1px solid rgba(211, 211, 211, 0.212);
+    width: 280px;
+    height: 200px;
+}
+
+.front-footer ul li:hover{
+    background-color: rgba(211, 211, 211, 0.534);
+    border: 1px solid rgba(211, 211, 211, 0.512);
+}
+
+.front-footer ul li img{
+    width: 70px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.front-footer ul li #icon{
+    margin-left: 114px;
+    margin-top: 60px;
+    color: rgb(82, 82, 82);
+}
+
+.front-footer ul li a{
+    text-decoration: none;
+}
+
+.front-footer ul li p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(82, 82, 82);
+}
+
+
+
+/**********************footer*********************************/
+
+
+#footer{
+    width:100%;
+    height: 800px;
+    background-color: rgba(211, 211, 211, 0.512);
+}
+
+#footer .soccial{
+    width: 1600px;
+    height: 100px;
+    margin: 120px auto;
+    border-bottom: 1px slategrey solid;
+}
+
+#footer .soccial ul{
+    margin-left: 1050px;
+}
+
+#footer .soccial ul li{
+    float: left;
+    list-style: none;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#footer .soccial ul li a{
+    color: rgb(82, 82, 82);
+}
+
+#footer ul li a:hover{
+    color: black;
+}
+
+.final-f{
+    float: left;
+    width: 600px;
+    margin-left: 250px;
+    margin-top: -60px;
+}
+
+.final-f h1{
+    font-weight:250;
+    font-size: 55px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    color: rgb(82, 82, 82);
+}
+
+.final-f ul{
+    list-style: none;
+}
+
+.final-f ul li a{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+/*******************finger*****************************************/
+
+
+#finger{
+    width: 100%;
+    height: 200px;
+}
+
+#finger .texta{ 
+    width: 750px;
+    height: 200px;
+    margin-left: 200px;
+    float: left;
+}
+
+#finger .texta h1{
+    font-weight:250;
+    font-size: 25px;
+    color: #000;
+    margin-top: 40px;
+}
+
+#finger .texta ul{
+    list-style: none;
+    margin-top: 40px;
+}
+
+#finger .texta ul li{
+    float: left;
+    margin-right: 25px;
+}
+
+#finger .texta ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(28, 105, 212);
+}
+
+#finger .texta ul li a:hover{
+    color: rgb(82, 82, 82);
+}
